@@ -19,74 +19,74 @@ const GallerySection = () => {
 
   const images = [
     {
-      src: "https://images.unsplash.com/photo-1487887235947-a955ef187fcc?w=800&h=600&fit=crop",
-      thumb: "https://images.unsplash.com/photo-1487887235947-a955ef187fcc?w=500&h=300&fit=crop",
-      alt: "Mobile fuel extraction van on location",
-      title: "Our Mobile Service Van"
+      src: "./images/1.jpg",
+      thumb: "./images/1.jpg",
+      alt: "Emergency response vehicle",
+      title: "Emergency Response"
     },
     {
-      src: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800&h=600&fit=crop",
-      thumb: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=500&h=300&fit=crop",
-      alt: "Professional fuel extraction equipment",
-      title: "Professional Equipment"
-    },
-    {
-      src: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=800&h=600&fit=crop",
-      thumb: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=500&h=300&fit=crop",
-      alt: "Fuel drain service in progress",
-      title: "Service in Progress"
-    },
-    {
-      src: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
-      thumb: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&h=300&fit=crop",
-      alt: "Completed fuel extraction job",
-      title: "Job Completed"
-    },
-    {
-      src: "https://images.unsplash.com/photo-1483058712412-4245e9b90334?w=800&h=600&fit=crop",
-      thumb: "https://images.unsplash.com/photo-1483058712412-4245e9b90334?w=500&h=300&fit=crop",
-      alt: "Emergency roadside assistance",
-      title: "Roadside Assistance"
-    },
-    {
-      src: "https://images.unsplash.com/photo-1487887235947-a955ef187fcc?w=800&h=600&fit=crop",
-      thumb: "https://images.unsplash.com/photo-1487887235947-a955ef187fcc?w=500&h=300&fit=crop",
-      alt: "24/7 mobile service coverage",
-      title: "24/7 Coverage"
-    },
-    {
-      src: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=600&fit=crop",
-      thumb: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&h=300&fit=crop",
-      alt: "Fuel extraction equipment close-up",
-      title: "Equipment Detail"
-    },
-    {
-      src: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=600&fit=crop",
-      thumb: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=500&h=300&fit=crop",
-      alt: "Digital monitoring system",
-      title: "Digital Monitoring"
-    },
-    {
-      src: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&h=600&fit=crop",
-      thumb: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=500&h=300&fit=crop",
-      alt: "Service documentation process",
-      title: "Service Documentation"
-    },
-    {
-      src: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=800&h=600&fit=crop",
-      thumb: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=500&h=300&fit=crop",
-      alt: "Advanced fuel analysis system",
-      title: "Fuel Analysis System"
-    },
-    {
-      src: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
-      thumb: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&h=300&fit=crop",
+      src: "./images/2.jpg",
+      thumb: "./images/2.jpg",
       alt: "Mobile workshop setup",
       title: "Mobile Workshop"
     },
     {
-      src: "https://images.unsplash.com/photo-1487887235947-a955ef187fcc?w=800&h=600&fit=crop",
-      thumb: "https://images.unsplash.com/photo-1487887235947-a955ef187fcc?w=500&h=300&fit=crop",
+      src: "./images/3.jpg",
+      thumb: "./images/3.jpg",
+      alt: "Fuel drainage",
+      title: "Fuel drainage"
+    },
+    {
+      src: "./images/4.jpg",
+      thumb: "./images/4.jpg",
+      alt: "Fuel extraction equipment",
+      title: "Equipment Detail"
+    },
+    {
+      src: "./images/5.jpg",
+      thumb: "./images/5.jpg",
+      alt: "Roadside assistance",
+      title: "Roadside Assistance"
+    },
+    {
+      src: "./images/6.jpg",
+      thumb: "./images/6.jpg",
+      alt: "24/7 mobile service coverage",
+      title: "24/7 Coverage"
+    },
+    {
+      src: "./images/7.jpg",
+      thumb: "./images/7.jpg",
+      alt: "Fuel extraction equipment",
+      title: "Equipment Detail"
+    },
+    {
+      src: "./images/8.jpg",
+      thumb: "./images/8.jpg",
+      alt: "Professional service",
+      title: "Professional service"
+    },
+    {
+      src: "./images/9.jpg",
+      thumb: "./images/9.jpg",
+      alt: "",
+      title: ""
+    },
+    {
+      src: "./images/10.jpg",
+      thumb: "./images/10.jpg",
+      alt: "",
+      title: ""
+    },
+    {
+      src: "./images/11.jpg",
+      thumb: "./images/.jpg",
+      alt: "Mobile workshop setup",
+      title: "Mobile Workshop"
+    },
+    {
+      src: "./images/1.jpg",
+      thumb: "./images/.jpg",
       alt: "Emergency response vehicle",
       title: "Emergency Response"
     }
