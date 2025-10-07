@@ -80,13 +80,13 @@ const GallerySection = () => {
     },
     {
       src: "./images/11.jpg",
-      thumb: "./images/.jpg",
+      thumb: "./images/11.jpg",
       alt: "Mobile workshop setup",
       title: "Mobile Workshop"
     },
     {
       src: "./images/1.jpg",
-      thumb: "./images/.jpg",
+      thumb: "./images/1.jpg",
       alt: "Emergency response vehicle",
       title: "Emergency Response"
     }
