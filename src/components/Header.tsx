@@ -14,7 +14,7 @@ const Header = () => {
               <Car className="h-6 w-6 text-white" />
             </div>
             <div>
-              <h1 className="text-lg font-bold text-gray-900">Mobile Fuel Drain</h1>
+              <h1 className="text-lg font-bold text-gray-900">Wrong Fuel Assist</h1>
               <p className="text-sm text-gray-600">24/7 Emergency Service</p>
             </div>
           </div>

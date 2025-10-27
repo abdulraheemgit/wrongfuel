@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-xl font-bold mb-4">Mobile Fuel Drain</h3>
+            <h3 className="text-xl font-bold mb-4">Wrong Fuel Assist</h3>
             <p className="text-gray-300 mb-4">
               Professional mobile fuel extraction service across London and surrounding areas. 
               Fast, safe, and reliable 24/7 emergency response.
@@ -43,7 +43,7 @@ const Footer = () => {
               <li>Petrol in Diesel Car</li>
               <li>Diesel in Petrol Car</li>
               <li>Emergency Fuel Extraction</li>
-              <li>Mobile Fuel Drain</li>
+              <li>Wrong Fuel Assist</li>
               <li>24/7 Roadside Assistance</li>
             </ul>
           </div>
@@ -86,7 +86,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © 2024 Mobile Fuel Drain Service. All rights reserved.
+              © 2024 Wrong Fuel Assist Service. All rights reserved.
             </p>
             <div className="mt-4 md:mt-0">
               <p className="text-gray-400 text-sm">

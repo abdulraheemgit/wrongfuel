@@ -22,7 +22,7 @@ const HeroSection = () => {
         </h1>
         
         <h2 className="text-2xl md:text-3xl font-semibold text-gray-700 mb-8">
-          We Come to You – Fast Mobile Fuel Drain Service!
+          We Come to You – Fast Wrong Fuel Assist Service!
         </h2>
         
         {/* Phone Number - Large and Prominent */}
