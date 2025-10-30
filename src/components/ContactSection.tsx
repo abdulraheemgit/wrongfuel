@@ -1,4 +1,3 @@
-
 import { Phone, Mail, Clock, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -8,6 +7,16 @@ import { Textarea } from "@/components/ui/textarea";
 const ContactSection = () => {
   const phoneNumber = "+44 7963 511139";
   const email = "help@fuelassist.co.uk";
+
+  // ✅ Google Ads conversion tracking
+  const handleCallClick = () => {
+    if (typeof window !== "undefined" && (window as any).gtag_report_conversion) {
+      (window as any).gtag_report_conversion(`tel:${phoneNumber}`);
+    } else {
+      // Fallback if gtag isn't loaded yet
+      window.open(`tel:${phoneNumber}`);
+    }
+  };
 
   return (
     <section id="contact" className="py-16 bg-gray-50">
@@ -33,14 +42,15 @@ const ContactSection = () => {
                   size="lg"
                   variant="secondary"
                   className="bg-white text-red-600 hover:bg-gray-100 font-bold"
-                  onClick={() => window.open(`tel:${phoneNumber}`)}
+                  onClick={handleCallClick}
                 >
                   <Phone className="h-5 w-5 mr-2" />
                   Call Now for Emergency Service
                 </Button>
               </CardContent>
             </Card>
-            
+
+            {/* Other info cards */}
             <div className="space-y-6">
               <Card>
                 <CardContent className="p-6">
@@ -57,7 +67,7 @@ const ContactSection = () => {
                   </div>
                 </CardContent>
               </Card>
-              
+
               <Card>
                 <CardContent className="p-6">
                   <div className="flex items-center space-x-4">
@@ -72,7 +82,7 @@ const ContactSection = () => {
                   </div>
                 </CardContent>
               </Card>
-              
+
               <Card>
                 <CardContent className="p-6">
                   <div className="flex items-center space-x-4">
@@ -89,7 +99,7 @@ const ContactSection = () => {
               </Card>
             </div>
           </div>
-          
+
           {/* Contact Form */}
           <Card>
             <CardContent className="p-8">
@@ -109,21 +119,21 @@ const ContactSection = () => {
                     <Input type="tel" placeholder="Your phone number" required />
                   </div>
                 </div>
-                
+
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">
                     Email *
                   </label>
                   <Input type="email" placeholder="your.email@example.com" required />
                 </div>
-                
+
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">
                     Location
                   </label>
                   <Input placeholder="Where is your vehicle located?" />
                 </div>
-                
+
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">
                     Message *
@@ -134,7 +144,7 @@ const ContactSection = () => {
                     required
                   />
                 </div>
-                
+
                 <Button 
                   type="submit"
                   size="lg"
@@ -142,7 +152,7 @@ const ContactSection = () => {
                 >
                   Send Message
                 </Button>
-                
+
                 <p className="text-sm text-gray-600 text-center">
                   For urgent situations, please call our emergency hotline for faster response.
                 </p>
